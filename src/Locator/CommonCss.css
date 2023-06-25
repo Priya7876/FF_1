@@ -1,0 +1,290 @@
+.searchForA {
+  display: flex;
+  font-family: 'Arial';
+  color: #434343;
+  font-size: 32px;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 8%;
+  align-items: center;
+  height: 20%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+
+.lookingForA {
+  display: flex;
+  font-family: 'Arial';
+  font-size: 22px;
+  color: #434343;
+  margin-top: 5%;
+  margin-left: 1%;
+  flex-wrap: wrap;
+}
+
+
+
+.searchForTime {
+ 
+  border-radius: 48px;
+  background-color: #F2F2F2;
+  width: 36%;
+  height: 7%;
+  top: 30%;
+
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+.locationInputField {
+  background-color: #F2F2F2;
+  border-color: #686868;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-style: "Open Sans";
+  color: #686868;
+  font-size: 20px;
+  height: 100%;
+  padding: 0%;
+  border-radius: 48px;
+  
+
+
+}
+
+.locationInputFieldForLocation {
+  background-color: #F2F2F2;
+  border-color: #686868;
+  outline: none;
+  border: none;
+  width: 80%;
+  font-style: "Open Sans";
+  color: #686868;
+  font-size: 20px;
+  height: 100%;
+  padding: 0%;
+  
+  border-radius: 48px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+
+.searchForLocation {
+ 
+  border-radius: 48px;
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 100%;
+  
+  flex-direction: row;
+}
+
+/* .locationOn {
+  position: absolute;
+  color: #686868;
+  width: fit-content;
+  right: 4%;
+  height: 100%;
+  font-size: 25px;
+  align-content: center;
+  top: 25%;
+
+} */
+
+
+
+
+.CheckBox {
+  display: flex;
+  width: 100%;
+ flex-wrap: wrap;
+  align-items: left;
+  margin-left: 1%;
+}
+
+
+.CheckBoxDesign {
+  display: flex;
+  margin-top: 2%;
+  height: fit-content;
+  justify-content: left;
+  width: 30%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+
+
+.search {
+ 
+  top: 30%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  padding: auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pickerContainerStyle  {
+   
+   
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+    display: flex;
+   outline: darkgreen;
+  
+}
+.timeInput{
+  outline: red;
+  align-self: flex-end;
+  width: 15%;
+  font-style: "Open Sans";
+  color: #686868;
+  font-size: 20px;
+  height: 100%;
+  padding: 0%;
+ padding-left: 4%;
+ padding-right: 4%;
+ 
+}
+
+
+
+
+
+
+
+.wrapping {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+ 
+}
+
+
+
+
+/* .confirmation-prompt {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-prompt p {
+    margin: 0 0 10px;
+  }
+  
+  .confirmation-prompt button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .confirmation-prompt button:hover {
+    background-color: #e9e9e9;
+  } */
+  .mapAndTextAlign{
+    margin-top: 3%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 20%; */
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.7fr 0.7fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "text  map" 
+    "button  map"
+    ;
+   grid-row-gap: 2%;
+    
+   
+    
+    
+    
+  }
+  @media only screen and (max-width :550px){
+    .mapAndTextAlign{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 0.8fr 0.5f;
+      grid-template-areas: 
+      "text"
+      "map"
+      "button"
+      ;
+    }
+  }
+ 
+  
+  /* .LookingA{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  } */
+  .ButtonDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: start;
+    overflow: auto;
+    grid-area: button;
+    margin-top: 2%;
+  }
+  .OptionsAndInput{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-right: 2%;
+    justify-content: space-evenly;
+    grid:text;
+  }
+
+  .Map{
+
+grid-area: map;
+  }
+  .mapsicleMapIcon {
+    border-radius: 1%;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+   
+   
+  }

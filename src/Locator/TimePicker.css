@@ -1,0 +1,21 @@
+.time-picker {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.time-picker-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.time-picker-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 14px;
+}
